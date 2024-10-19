@@ -1,13 +1,6 @@
-def main():
-    try:
-        bilangan = int(input("Masukkan sebuah bilangan: "))
+angka = int(input("Masukkan angka: "))
 
-        if bilangan % 2 == 0:
-            print(f"{bilangan} adalah bilangan genap.")
-        else:
-            print(f"{bilangan} adalah bilangan ganjil.")
-    except ValueError:
-        print("Input tidak valid. Harap masukkan angka bulat.")
-
-if __name__ == "__main__":
-    main()
+if angka % 2 == 0:
+    print(f"{angka} adalah bilangan genap.")
+else:
+    print(f"{angka} adalah bilangan ganjil.")
